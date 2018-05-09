@@ -1,12 +1,10 @@
 package edu.handong.csee.Lab14.prob6;
-import java.util.Scanner;//import java.util.Scanner
 
 	public class CustomID {//public class modifier named CustomID
 		String [] mRace = new String[] {"Vulcans", "Romulan", "Klingons"}; //pre call that mRace has "Vulcans", "Romulan", "Klingons"
 		String mName, stateRace;//call String class type named mName and stateRace
 		int mAge;//call integer named mAge
 
-		Scanner input = new Scanner(System.in);//instantiate Scanner class
 		void recieveName(String str) throws Exception {//method named recieveName which returns nothing and gets String str
 			if(str.length()<5) {//if str length is smaller than 5
 				throw new Exception("Your name is short! Try again!");//throw Exception with "Your name is short! Try again!"
