@@ -20,4 +20,3 @@ public class Controller {//public modifier class named Controller
 	       System.out.println("String val is " + str);//print out "String val is"
 	    }
 	}
-
