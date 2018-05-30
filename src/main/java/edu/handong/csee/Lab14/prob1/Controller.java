@@ -11,6 +11,6 @@ public class Controller {//public modifier class named Controller
 		sl.mSpeedSet = input.nextInt();//input integer value to sl's instance variable mSpeedSet
 		sl.setRandomSpeed();//call sl's setRandomSpeed method
 		sl.warnSpeedLimit();//call sl's warnSpeedLimit method
-	}
+	}   
 
 }
