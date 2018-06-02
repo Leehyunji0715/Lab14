@@ -7,6 +7,6 @@ public class Controller {//public modifier class named Controller
 		In_Exception except = new In_Exception();//instantiate In_Exception named except
 		except.error();//call method of except   
 		
-	}
+	}     
 
 }
