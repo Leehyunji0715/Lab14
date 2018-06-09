@@ -3,7 +3,7 @@ package edu.handong.csee.Lab14.prob1;
 public class SpeedLimiter extends Exception{//public modifier class naemd SpeedLimiter and inherits Exception class
 	int mSpeedSet;//call instance variable named mSpeedSet
 	int randomSpeed;//call instance variable named randomSpeed
-	
+	        
 	public void setRandomSpeed(){//call public modifier method named setRandomSpeed which returns nothing
 		randomSpeed = (int)(Math.random()*101);	//input random value(0~100) into randomSpeed
 	}
