@@ -6,7 +6,7 @@ public class SpeedLimiter extends Exception{//public modifier class naemd SpeedL
 	        
 	public void setRandomSpeed(){//call public modifier method named setRandomSpeed which returns nothing
 		randomSpeed = (int)(Math.random()*101);	//input random value(0~100) into randomSpeed
-	}
+	}     
 	void warnSpeedLimit() {//method named warnSpeedLimit and returns nothing
 		try {//try
 			if(randomSpeed>mSpeedSet) {//if randomSpeed is higher than mSpeedSet
