@@ -19,5 +19,5 @@ public class SpeedLimiter extends Exception{//public modifier class naemd SpeedL
 			System.out.println("you are being fined");//print out user being fined
 		}     
 		System.out.println("your current speed is "+randomSpeed+" km");//print out current speed
-	}
+	}       
 }
