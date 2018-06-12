@@ -17,7 +17,7 @@ public class SpeedLimiter extends Exception{//public modifier class naemd SpeedL
 		catch(Exception e) {//catch throw statement and declare Exception class as e
 			System.out.println("Speed limit "+mSpeedSet+"km exceeded!");//print out speed limit is exceeded
 			System.out.println("you are being fined");//print out user being fined
-		}     
+		}             
 		System.out.println("your current speed is "+randomSpeed+" km");//print out current speed
 	}       
 }
