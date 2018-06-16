@@ -20,4 +20,4 @@ public class SpeedLimiter extends Exception{//public modifier class naemd SpeedL
 		}             
 		System.out.println("your current speed is "+randomSpeed+" km");//print out current speed
 	}   
-}       
+}          
